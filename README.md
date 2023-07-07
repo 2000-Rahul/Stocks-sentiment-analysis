@@ -9,7 +9,7 @@
 
 ## Tickers
 - A ticker is a type of stock symbol that describes information about the stock of a company. Tickers take the form of shapes, characters, numbers and colours, and are indicative of any kind of change that a security on the financial market shows.
-- In this project we have taken tickers of 'gme','tsla','btc'
+- In this project we have taken tickers of 'gme','tsla','btc' and perform Sentiment Analysis on them.
 
 ## Pipeline
 - Pipelines are made of:
