@@ -15,7 +15,7 @@
 ## Strip Unwanted URLs
 - URLs which have these unwanted words frequently are stripped ['maps','policies','preferences','accounts','support'].
 ## Summarize Articles
-- Articles have summarized by defining a function, in which tokenizers are encoded, numbers of words are limited.
+- Articles have summarized by defining a function, in which tokenizers are encoded and numbers of words are limited in each article.
 ## Pipeline
 - Pipelines are made of:
 
@@ -27,4 +27,11 @@
   sentiment = pipeline("sentiment-analysis")
 - ![image](https://github.com/2000-Rahul/Stocks-sentiment-analysis/assets/136818857/6aaa5c6d-db82-486e-abc4-f770aee76e25)
   
-
+## Output CSV file
+- finally a csv file is generated which have columns Ticker,Summary,label,Confidence and URLs.
+-  Ticker column defines which ticker article is summarize from URLs.
+-  summary column defines summary of particular article.
+-  label column defines whether that articles sentiment is either positive or negative.
+-  Confidence column defines how strong that sentiment is. The value of confidence column lies between 0 and 1.
+-  URLs column defines URL of each article.
+  
