@@ -23,8 +23,7 @@
     A model to make predictions from the inputs. <br>
     Some (optional) post processing for enhancing model’s output.
 - **Sentiment Analysis Pipeline** <br>
-  from transformers import pipeline <br> 
-  sentiment = pipeline("sentiment-analysis")
+- A sentiment Analysis pipeline is used in this project to determine the sentiment of each summarize article. 
 - ![image](https://github.com/2000-Rahul/Stocks-sentiment-analysis/assets/136818857/6aaa5c6d-db82-486e-abc4-f770aee76e25)
   
 ## Output CSV file
@@ -34,4 +33,6 @@
 -  label column defines whether that articles sentiment is either positive or negative.
 -  Confidence column defines how strong that sentiment is. The value of confidence column lies between 0 and 1.
 -  URLs column defines URL of each article.
+-  ![image](https://github.com/2000-Rahul/Stocks-sentiment-analysis/assets/136818857/ff32f3b1-4292-4d6f-b2f4-236bca6cad4f)
+
   
