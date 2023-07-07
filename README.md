@@ -10,9 +10,9 @@
 ## Pipeline
 - Pipelines are made of:
 
-    A tokenizer in charge of mapping raw textual input to token.
-    A model to make predictions from the inputs.
+    A tokenizer in charge of mapping raw textual input to token. <br>
+    A model to make predictions from the inputs. <br>
     Some (optional) post processing for enhancing model’s output.
-- **Sentiment Analysis Pipeline** :
-  from transformers import pipeline :- 
+- **Sentiment Analysis Pipeline** <br>
+  from transformers import pipeline <br> 
   sentiment = pipeline("sentiment-analysis")
