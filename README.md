@@ -1,5 +1,7 @@
 ## Stocks-sentiment-analysis
 - **Sentiment analysis** (or opinion mining) is a natural language processing (NLP) technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs.
+- Why is sentiment analysis important in stock market? <br>
+An investor can use market sentiment analysis to determine whether the market is driven by feelings and emotions or by rational decision-making. Market sentiment analysis is considered valuable as it can help you determine the opinion of investors.
 
 ## Import necessary libraries
 - **Requests** - Requests library is one of the integral part of Python for making HTTP requests to a specified URL. Whether it be REST APIs or Web Scraping, requests is must to be learned for proceeding further with these technologies. When one makes a request to a URI, it returns a response.
