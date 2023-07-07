@@ -7,6 +7,10 @@
 - **Transformers** - Transformer is an architecture for transforming one sequence into another one with the help of two parts (Encoder and Decoder). The PegasusTokenizer class will convert our sentences into tokens. This is a numbered representation of our sentences. pegasus modole use for reading a document and producing a summary.
 -  **SentencePiece** -  It's actually a method for selecting tokens from a precompiled list, optimizing the tokenization process based on a supplied corpus.
 
+## Tickers
+- A ticker is a type of stock symbol that describes information about the stock of a company. Tickers take the form of shapes, characters, numbers and colours, and are indicative of any kind of change that a security on the financial market shows.
+- In this project we have taken tickers of 'gme','tsla','btc'
+
 ## Pipeline
 - Pipelines are made of:
 
@@ -16,3 +20,6 @@
 - **Sentiment Analysis Pipeline** <br>
   from transformers import pipeline <br> 
   sentiment = pipeline("sentiment-analysis")
+- ![image](https://github.com/2000-Rahul/Stocks-sentiment-analysis/assets/136818857/6aaa5c6d-db82-486e-abc4-f770aee76e25)
+  
+
